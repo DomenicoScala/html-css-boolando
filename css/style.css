@@ -31,7 +31,11 @@
 }
 
 
-
+.footercont{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
 
 .containercard1{
     display: flex;
@@ -178,12 +182,41 @@ header section{
     padding: 3px;
 }
 
+.section2{
+    padding-bottom: 40px;
+}
+/*
+
+   FOOTER
+
+*/
+
+
+.footcol1 p{
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.footcol1 span{
+    display: inline-block;
+    margin-right: 3px;
+    font-size: small;
+}
 
 
 
+footer section{
+    background-color: #1A1A1A;
+    padding: 20px;
+    color: white;
+}
 
-
-
+.footcol2 i{
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
 /*
 
    DEBUG
