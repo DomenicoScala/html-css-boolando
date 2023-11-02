@@ -21,8 +21,27 @@
     margin: 0 auto;
 }
 
+.hearts{
+    position: absolute;
+    background-color: white;
+    padding: 15px;
+    top: 30px;
+    right: 12px;
+    font-size: 25px;
+}
 
 
+
+
+.containercard1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+
+.cardabs{
+    position: relative;
+}
 
 
 /*
@@ -30,6 +49,11 @@
    HEADER
 
 */
+
+header section{
+    background-color: #FF6900;;
+}
+
 .flexhead{
     display: flex;
     flex-wrap: nowrap;
@@ -42,13 +66,10 @@
 
 }
 
-
 .genere p{
     padding-top: 10px;
     color: white;
 }
-
-
 
 .genere{
     width: 25%;
@@ -70,11 +91,97 @@
     padding: 15px;
 }
 
-
 .icon i{
     color: white;
     padding: 10px;
 }
+
+.carddesc{
+    padding-left: 11px;
+    margin-top: -17px;
+}
+
+.carddesc p:first-child {
+    color: red;
+}
+
+
+/*
+
+   MAIN
+
+*/
+
+.card1{
+    width: calc(100% / 3);
+}
+
+.card2{
+    width: calc(100% / 3);
+}
+
+.card3{
+    width: calc(100% / 3);
+}
+
+
+.card1 img{
+    max-width: 100%;
+    padding: 12px;
+}
+
+.card2 img{
+    max-width: 100%;
+    padding: 12px;
+}
+
+.card3 img{
+    max-width: 100%;
+    padding: 12px;
+}
+
+
+.sconto{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.greenspan{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.cardabs .sconto{
+    position: absolute;
+    left: 12px;
+    bottom: 60px;
+}
+
+.cardabs .greenspan{
+    position: absolute;
+    left: 58px;
+    bottom: 60px;
+}
+
+
+.cardabs .greenspan6{
+    position: absolute;
+    left: 12px;
+    bottom: 60px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+
+
 
 
 /*
@@ -82,6 +189,14 @@
    DEBUG
 
 */
-.debug header section{
-    background-color: #FF6900;
-}
+
+
+/* .debug main section .containercard1{
+    background-color: aqua;
+    min-height: 600px;
+} */
+
+
+/* .debug main section .containercard1 > *{
+    border: 1px dashed black;
+} */
