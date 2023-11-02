@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -136,10 +137,14 @@ header section{
     margin-top: -17px;
 }
 
-.carddesc p:first-child {
+.carddesc span:first-of-type {
     color: red;
+    font-weight: bold;
 }
 
+.carddesc span:last-child:not(.nosconto){
+    text-decoration: line-through;
+}
 
 /*
 
