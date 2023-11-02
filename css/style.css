@@ -9,3 +9,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*
+
+   GENERAL
+
+*/
+.containerhead{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/*
+
+   HEADER
+
+*/
+.flexhead{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexicon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+
+}
+
+
+.genere p{
+    padding-top: 10px;
+    color: white;
+}
+
+
+
+.genere{
+    width: 25%;
+    padding: 15px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.icon{
+    width: 25%;
+}
+
+.logo img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.icon i{
+    color: white;
+    padding: 10px;
+}
+
+
+/*
+
+   DEBUG
+
+*/
+.debug header section{
+    background-color: #FF6900;
+}
