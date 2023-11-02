@@ -47,12 +47,41 @@
     position: relative;
 }
 
+.imgcontainer{
+    position: relative;
+}
+
+.hover-img{
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.card:hover .hover-img{
+    display: block;
+}
+
+.margincontainer{
+    margin-top: 92px;
+}
+
 
 /*
 
    HEADER
 
 */
+
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transform: translate(0px, -94px);
+}
+
+
 
 header section{
     background-color: #FF6900;;
@@ -70,14 +99,16 @@ header section{
 
 }
 
-.genere p{
+.genere a{
     padding-top: 10px;
     color: white;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
 .genere{
     width: 25%;
-    padding: 15px;
+    padding: 21px;
 }
 
 .logo{
@@ -116,33 +147,17 @@ header section{
 
 */
 
-.card1{
-    width: calc(100% / 3);
-}
-
-.card2{
-    width: calc(100% / 3);
-}
-
-.card3{
+.card{
     width: calc(100% / 3);
 }
 
 
-.card1 img{
+
+.card img{
     max-width: 100%;
     padding: 12px;
 }
 
-.card2 img{
-    max-width: 100%;
-    padding: 12px;
-}
-
-.card3 img{
-    max-width: 100%;
-    padding: 12px;
-}
 
 
 .sconto{
@@ -233,3 +248,4 @@ footer section{
 /* .debug main section .containercard1 > *{
     border: 1px dashed black;
 } */
+
