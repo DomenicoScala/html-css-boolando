@@ -31,6 +31,22 @@
     font-size: 25px;
 }
 
+.heartsred{
+    position: absolute;
+    background-color:white;
+    padding: 15px;
+    top: 30px;
+    right: 12px;
+    font-size: 25px;
+    color: red;
+    display: none;
+}
+
+.card:hover .heartsred{
+    display: block;
+}
+
+
 
 .footercont{
     display: flex;
@@ -105,6 +121,7 @@ header section{
     color: white;
     text-decoration: none;
     vertical-align: middle;
+    margin-right: 7px;
 }
 
 .genere{
@@ -132,6 +149,18 @@ header section{
     padding: 10px;
 }
 
+
+
+/*
+
+   MAIN
+
+*/
+
+.card{
+    width: calc(100% / 3);
+}
+
 .carddesc{
     padding-left: 11px;
     margin-top: -17px;
@@ -146,17 +175,9 @@ header section{
     text-decoration: line-through;
 }
 
-/*
-
-   MAIN
-
-*/
-
-.card{
-    width: calc(100% / 3);
+.carddesc p:first-child{
+    font-weight: 300;
 }
-
-
 
 .card img{
     max-width: 100%;
@@ -205,6 +226,8 @@ header section{
 .section2{
     padding-bottom: 40px;
 }
+
+
 /*
 
    FOOTER
@@ -219,7 +242,7 @@ header section{
 
 .footcol1 span{
     display: inline-block;
-    margin-right: 3px;
+    margin-right: 7px;
     font-size: small;
 }
 
